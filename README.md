@@ -1,3 +1,3 @@
-# puzzle for LessonUp
+### puzzle
 
 use `npm run test` to run test

@@ -8,7 +8,7 @@ function calculateRoute(officeRoute) {
   let y = 0;
   let direction = "east";
 
-  let result;
+  let result = 0;
 
   for (let i = 0; i < routeArray.length; i++) {
     const side = routeArray[i].charAt(0);
@@ -51,7 +51,7 @@ function calculateRoute(officeRoute) {
     result = Math.abs(x) + Math.abs(y);
   }
 
-  console.log(`you are ${result} blocks away from office!`);
+  console.log(`you are ${result} blocks away from the office!`);
   return result;
 }
 

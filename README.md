@@ -1,3 +1,3 @@
 ### puzzle
 
-use `npm run test` to run test
+use `npm run test` to run tests
